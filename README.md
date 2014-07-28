@@ -1,5 +1,11 @@
 # A Virtual Machine for Ruby on Rails Core Development
 
+## Changes on this fork
+
+* Removed MySQL.
+* `postgres` user connection is trusted (e.g. no need for password).
+* Ruby version `2.1.2`.
+
 ## Introduction
 
 This project automates the setup of a development environment for working on Ruby on Rails itself. Use this virtual machine to work on a pull request with everything ready to hack and run the test suites.
