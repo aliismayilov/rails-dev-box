@@ -4,7 +4,7 @@ $home         = '/home/vagrant'
 
 # Pick a Ruby version modern enough, that works in the currently supported Rails
 # versions, and for which RVM provides binaries.
-$ruby_version = '2.1.2'
+$ruby_version = '2.1.3'
 
 Exec {
   path => ['/usr/sbin', '/usr/bin', '/sbin', '/bin']
